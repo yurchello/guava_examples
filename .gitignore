@@ -1,0 +1,36 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+runSingleTest.xml
+runSingleTestSuite.xml
+
+# Maven
+log/
+*.log
+target/
+osm-server/build/
+out/
+build_js.bat
+osm-qa/target/*
+osm-aqa-rest/src/logs
+
+# Vagrant/docker local files
+.vagrant
+osm-dev/application/*.jar
+osm-dev/application/config/application.properties
+osm-dev/.vagrant.d
+osm-dev/Library/
+osm-dev/application/localmaps
+osm-dev/.gem/
+osm-docker/vag_dev/.vagrant
+osm-docker/vag_dev/temp
+
+# created by npm
+package-lock.json
+
+# Local scripts
+my-*.cmd
+my-*.bat
+my-*.sh
